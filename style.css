@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+/* body, html {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+} */
+
+@media(min-width: 760px){
+    main {
+        display: flex;   
+    }
+}
+
+section {
+    display: flex;
+}
+
+header {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.box-1 .box-2 .box-3{
+    flex-basis: 35%;    
+}
+
+/* .box-4 {
+    grid-row: 1;
+    grid-column: 1;
+} */
